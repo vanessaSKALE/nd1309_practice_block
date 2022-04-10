@@ -7,7 +7,7 @@ const BlockClass = require('./block.js');
 /**
  * Creating a block object
  */
-const block = new BlockClass.Block("Test Block");
+const block = new BlockClass.Block("Test Block Vanessa 88");
 
 // Generating the block hash
 block.generateHash().then((result) => {
@@ -17,7 +17,7 @@ block.generateHash().then((result) => {
 
 /**
  * Step 3: Run the application in node.js
- * 
+ *
  */
 
 // From the terminal: cd into Project folder
